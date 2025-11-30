@@ -1,5 +1,7 @@
 # Minimal repro for Aspire bug
 
+Filed as: https://github.com/dotnet/aspire/issues/13257
+
 ## Describe the bug
 
 `.WithPnpm()` plus `.PublishAsDockerFile()` causes `aspire deploy` to fail.
